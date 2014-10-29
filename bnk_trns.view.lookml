@@ -80,7 +80,6 @@
     sql: ${TABLE}.PRACTICE_OID
 
   - dimension: currency_oid
-    hidden: true  
     sql: ${TABLE}.CURRENCY_OID
 
   - dimension: incentive_baseline
@@ -114,7 +113,6 @@
     sql: ${TABLE}.BUDGET_OID
 
   - measure: value
-    hidden: true   
     type: number
     sql: ${TABLE}.VALUE
 
