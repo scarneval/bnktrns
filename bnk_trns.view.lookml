@@ -113,7 +113,7 @@
     sql: ${TABLE}.BUDGET_OID
 
   - measure: value
-    type: number
+    type: sum
     sql: ${TABLE}.VALUE
 
   - measure: count
